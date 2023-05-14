@@ -1,1 +1,120 @@
 /* You can add global styles to this file, and also import other style files */
+// $base-color: #F1F6F9;
+// $base-color2: #b8cfdc;
+// $base-color3: #95b6c9;
+// $primary-color: #394867;
+// $secondary-color: #212A3E;
+
+// Theme2
+// $base-color: #FFF2CC; 
+$base-color: #F4B183; 
+$base-color2: #dcab8a;
+$base-color3: #d6b098;
+$secondary-color: #FFD966;
+$primary-color: #FFF2CC;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+// ------------- Media Style Queries -------------
+@media (max-width: 1535px) {
+  header {
+    padding: 15px 3% !important;
+    transition: .2s;
+  }
+
+  .icons {
+    padding: 0 3% !important;
+    transition: .2s;
+  }
+}
+
+@media (max-width: 1460px) {
+  section {
+    padding: 0 12% !important;
+    transition: .2s;
+  }
+}
+
+@media (max-width: 1340px) {
+  .hero-img img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .hero-text h1 {
+    font-size: 75px !important;
+    margin: 0 0 30px !important;
+  }
+
+  .hero-text h5 {
+    margin-bottom: 25px !important;
+  }
+}
+
+@media (max-width: 1195px) {
+  section {
+    padding: 0 3% !important;
+    transition: .2s;
+  }
+  .hero-text {
+    padding-top: 115px !important;
+  }
+  .hero-img {
+    text-align: center !important;
+  }
+  .hero-img img{
+    width: 560px !important;
+    height: auto !important;
+  }
+  .hero {
+    height: 100% !important;
+    gap: 1rem !important;
+    grid-template-columns: 1fr !important;
+  }
+  .icons {
+    display: none !important;
+  }
+}
+
+@media (max-width: 990px) {
+  #menu-icon {
+    display: block !important;
+  }
+  .navlist {
+    position: absolute !important;
+    // top: 0 !important;
+    top: 100% !important;
+    right: -100% !important;
+    width: 300px !important;
+    height: 40vh !important;
+    background: $base-color3 !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    padding: 50px 20px !important;
+    transition: all .55s ease;
+  }
+  .navlist a {
+    display: block !important;
+    margin: 30px 0 !important;
+    margin-left: 0 !important;
+  }
+  .navlist.open {
+    right: 0 !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero-img img {
+    width: 100%;
+    height: auto;
+  }
+}
