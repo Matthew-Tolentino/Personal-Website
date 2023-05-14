@@ -111,6 +111,15 @@ $primary-color: #FFF2CC;
   .navlist.open {
     right: 0 !important;
   }
+  .about {
+    height: 100% !important;
+    min-height: 50vh !important;
+    gap: 0 !important;
+    grid-template-columns: 1fr !important;
+  }
+  .about-wheel{
+    text-align: center;
+  }
 }
 
 @media (max-width: 680px) {

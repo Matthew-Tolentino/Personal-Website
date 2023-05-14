@@ -1,0 +1,25 @@
+<section class="about">
+  <div class="about-wheel">
+    <a *ngFor="let icon of icons; let i = index;" href="#"
+      [style.transform]="getTransform(i)"
+    >
+      <i [ngClass]="icon"></i>
+    </a>
+    <!-- <a href="#"><i class="ri-javascript-line"></i></a>
+    <a href="#"><i class="ri-html5-line"></i></a>    
+    <a href="#"><i class="ri-css3-line"></i></a>
+    <a href="#"><i class="ri-angularjs-line"></i></a>
+    <a href="#"><i class="ri-bootstrap-line"></i></a> -->
+  </div>
+
+  <div class="about-text">
+    <h4>About Me</h4>
+    <h3>A Dedicated and Curious Full Stack Developer based in Thousand Oaks, California</h3>
+    <span>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Porro perspiciatis quisquam nulla aspernatur nisi libero hic dolorum?
+      Dolores explicabo nostrum assumenda aliquam omnis placeat, 
+      aspernatur magni, rem alias adipisci ex!
+    </span>
+  </div>
+</section>

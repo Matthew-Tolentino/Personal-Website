@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { ScrollrevealDirective } from './shared/directives/scrollreveal.directive';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ScrollrevealDirective
+    ScrollrevealDirective,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

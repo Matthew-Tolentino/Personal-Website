@@ -4,7 +4,7 @@
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(245.59deg, $base-color 0%, $base-color2 28.53%, $base-color3 63.52%);
+  // background: linear-gradient(245.59deg, $base-color 0%, $base-color2 28.53%, $base-color3 63.52%);
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -49,6 +49,9 @@ section {
 .hero-img img {
   width: 500px;
   height: auto;
+  // border: 1px solid $base-color;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px $primary-color;
 }
 
 .hero-text a {
@@ -101,5 +104,5 @@ section {
 
 .icons i:hover {
   color: $secondary-color;
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
