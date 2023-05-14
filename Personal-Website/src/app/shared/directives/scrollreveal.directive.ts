@@ -1,7 +1,7 @@
 import { Directive, ElementRef, Input, OnInit, Renderer2 } from '@angular/core';
 
 @Directive({
-  selector: '[appScrollreveal]'
+  selector: '[fadeIn]'
 })
 export class ScrollrevealDirective implements OnInit {
   @Input() speed: string | number = 2;
